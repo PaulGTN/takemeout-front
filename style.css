@@ -18,12 +18,11 @@
 
 footer {
   position:  absolute;
-  bottom: 0;
   display: flex;
   width: 100%;
   border-radius: 5px;
   background-color: #601111;
-  font-family: 'Noto Sans KR', Arial, Helvetica, sans-serif;
+  font-family:'Permanent Marker', cursive;
   justify-content: start;
   align-items: space-between;
   align-content: center;
