@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulaires</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Permanent+Marker" rel="stylesheet"> 
+
+    <!-- Bootstrap CSS -->
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-kW2H6mf/72/MKlmwB//Zcwg0ckiegojPx/fio14/rpoYw2LMhULTn5YhS1QyrQfx" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<div class="container p-5">
+    <header>
+      <h2 class="text-center mb-5">Les formulaires</h2>
+    </header>
+    <form class="container p-5">
+      <fieldset>
+        <br />
+        <h3 class="text-center">Inscription</h3>
+  
+        <div class="form-group">
+          <label for="exampleInputEmail">Nom</label>
+          <div class="">
+            <input type="text" class="form-control" id="exampleInputName" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPhoneNumber">Prénom</label>
+          <div class="">
+            <input type="text" class="form-control" id="exampleInputFirstName" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail">Email</label>
+          <div class="">
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPhoneNumber">Téléphone</label>
+          <div class="">
+            <input type="text" class="form-control" id="exampleInputPhoneNumber" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Choisissez un mot de passe</label>
+          <div class="">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Confirmez le mot de passe</label>
+          <div class="">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+          </div>
+        </div>
+      </fieldset>
+      <center><button type="button" class="btn btn-primary">M'inscrire</button></center>
+    </form>
+
+    <form class="container p-5">
+      <fieldset>
+        <center>
+          <h3>Connexion</h3>
+          <h6>Saisissez vos identifiants pour vous connecter</h6>
+        </center>
+        <div class="form-group">
+          <label for="exampleInputEmail">Votre adresse mail</label>
+          <div class="">
+            <input type="text" class="form-control" id="exampleInputEmail" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Votre mot de passe</label>
+          <div class="">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+          </div>
+        </div>
+      </fieldset>
+      <center><button type="button" class="btn btn-primary">Me connecter</button></center>
+    </form>
+    
+    <form class="container p-5">
+      <fieldset>
+        <center>
+          <h3>Mot de passe oublié</h3>
+          <h6>Saisissez votre adresse mail</h6>
+        </center>
+        <div class="form-group">
+          <label for="exampleInputEmail"></label>
+          <div class="">
+            <input type="text" class="form-control" id="exampleInputEmail" placeholder="">
+          </div>
+        </div>
+      </fieldset>
+      <center><button type="button" class="btn btn-primary">Envoyer le mail de réinitialisation</button></center>
+    </form>
+    
+    <form class="container p-5">
+      <fieldset>
+        <center>
+          <h3>Réinitialisez votre mot de passe</h3>
+          <h6>Saisissez votre nouveau mot de passe</h6>
+        </center>
+        <div class="form-group">
+          <label for="exampleInputEmail">Nouveau mot de passe</label>
+          <div class="">
+            <input type="text" class="form-control" id="exampleInputEmail" placeholder="Nouveau mot de passe">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Confirmez votre nouveau mot de passe</label>
+          <div class="">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nouveau mot de passe">
+          </div>
+        </div>
+      </fieldset>
+      <center><button type="button" class="btn btn-primary">Réinitialiser le mot de passe</button></center>
+    </form>
+  </div>
+  </body>
+</html>
